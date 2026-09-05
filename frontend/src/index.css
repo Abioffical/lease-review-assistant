@@ -1,0 +1,50 @@
+:root {
+  --color-bg: #f5f6f8;
+  --color-surface: #ffffff;
+  --color-border: #dfe3e8;
+  --color-text: #1f2933;
+  --color-text-muted: #5c6773;
+  --color-primary: #1e3a5f;
+  --color-primary-hover: #16293f;
+  --color-accent: #2f6f4e;
+
+  --color-match: #2f6f4e;
+  --color-match-bg: #e9f5ee;
+  --color-deviation: #a15c00;
+  --color-deviation-bg: #fdf1e0;
+  --color-missing: #9c2c2c;
+  --color-missing-bg: #fbe9e9;
+  --color-prohibited: #7a1f1f;
+  --color-prohibited-bg: #f9e2e2;
+
+  font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  color-scheme: light;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: var(--color-bg);
+  color: var(--color-text);
+}
+
+a {
+  color: var(--color-primary);
+}
+
+.app-shell {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.app-main {
+  flex: 1;
+  padding: 24px 16px 60px;
+  max-width: 960px;
+  margin: 0 auto;
+  width: 100%;
+}

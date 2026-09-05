@@ -1,0 +1,129 @@
+.navbar {
+  background-color: var(--color-primary);
+  color: white;
+  padding: 14px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.navbar-brand {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 8px;
+}
+
+.nav-link {
+  color: rgba(255, 255, 255, 0.85);
+  text-decoration: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  font-size: 0.92rem;
+}
+
+.nav-link:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.nav-link.active {
+  background-color: rgba(255, 255, 255, 0.18);
+  color: white;
+  font-weight: 600;
+}
+
+/* ---- Badges ---- */
+.badge {
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 0.78rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.badge-clean { background: var(--color-match-bg); color: var(--color-match); }
+.badge-needs-review { background: var(--color-deviation-bg); color: var(--color-deviation); }
+.badge-match { background: var(--color-match-bg); color: var(--color-match); }
+.badge-deviation { background: var(--color-deviation-bg); color: var(--color-deviation); }
+.badge-missing { background: var(--color-missing-bg); color: var(--color-missing); }
+.badge-prohibited { background: var(--color-prohibited-bg); color: var(--color-prohibited); }
+
+.severity-tag {
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  padding: 3px 8px;
+  border-radius: 4px;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+}
+
+.severity-low { background: #eef1f4; color: #5c6773; }
+.severity-medium { background: #fdf1e0; color: #a15c00; }
+.severity-high { background: #fbe4d5; color: #b8460e; }
+.severity-critical { background: #f9e2e2; color: #7a1f1f; }
+
+/* ---- Finding cards ---- */
+.finding-card {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-left-width: 5px;
+  border-radius: 8px;
+  padding: 16px 18px;
+  margin-bottom: 14px;
+}
+
+.finding-match { border-left-color: var(--color-match); }
+.finding-deviation { border-left-color: var(--color-deviation); }
+.finding-missing { border-left-color: var(--color-missing); }
+.finding-prohibited_found { border-left-color: var(--color-prohibited); }
+
+.finding-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 8px;
+}
+
+.finding-header h4 {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.finding-badges {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.quoted-clause {
+  background: #f7f8fa;
+  border-left: 3px solid var(--color-border);
+  margin: 10px 0;
+  padding: 10px 14px;
+  font-style: italic;
+  color: var(--color-text-muted);
+  font-size: 0.92rem;
+}
+
+.quoted-clause.small {
+  font-size: 0.86rem;
+}
+
+.no-clause-note {
+  font-size: 0.88rem;
+  color: var(--color-text-muted);
+  font-style: italic;
+}
+
+.finding-explanation {
+  margin: 6px 0 0;
+  font-size: 0.94rem;
+}
