@@ -1,3 +1,15 @@
+# Lease Review Assistant
+
+## 🚀 Live Demo
+
+https://lease-review-assistant.vercel.app/
+
+## 🔗 Project Links
+
+- **Live Demo:** https://lease-review-assistant.vercel.app/
+- **GitHub Repository:** https://github.com/Abioffical/lease-review-assistant
+
+
 # Lease Agreement Review Assistant
 
 A review assistant for a property management company's legal desk. It reads a lease
